@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pewa BET - Pewa BET</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="assets/css/arafat-font.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.png" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-content">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Tipster</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="become-tipster.html">Become Tipster</a></li>
+                                        <li><a class="nav-link" href="find-tipsters.html">Find Tipster</a></li>
+                                        <li><a class="nav-link" href="tipster-profile.html">Tipster Profile</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">All Tips</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" aria-current="page" href="all-tips.html">All Tips</a></li>
+                                        <li><a class="nav-link" aria-current="page" href="match-betting.html">Match Betting</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link active dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Support</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="support-help.html">Support Help</a></li>
+                                        <li><a class="nav-link" href="buyer-faq.html">Buyers Faq</a></li>
+                                        <li><a class="nav-link" href="tipster-faq.html">Tipster Faq</a></li>
+                                        <li><a class="nav-link" href="faq-details.html">Faq Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="about.html">About Us</a></li>
+                                        <li><a class="nav-link" href="affiliate.html">Affiliate</a></li>
+                                        <li><a class="nav-link" href="post-tips.html">Post Tips</a></li>
+                                        <li><a class="nav-link" href="user-dashboard.html">User Dashboard</a></li>
+                                        <li><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a class="nav-link" href="terms-conditions.html">Terms Conditions</a></li>
+                                        <li><a class="nav-link" href="create-tipster-profile.html">Create Profile</a></li>
+                                        <li><a class="nav-link" href="error.html">Error</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center max-un">
+                                <div class="search-icon">
+                                    <a href="javascript:void(0)"><img src="assets/images/icon/search.png" alt="icon"></a>
+                                </div>
+                                <button type="button" class="login" data-bs-toggle="modal"
+                                    data-bs-target="#loginMod">
+                                    Login
+                                </button>
+                                <button type="button" class="cmn-btn reg" data-bs-toggle="modal"
+                                    data-bs-target="#loginMod">
+                                    Join
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- Login Registration start -->
+    <div class="log-reg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade " id="loginMod">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="loginArea" role="tabpanel" aria-labelledby="loginArea-tab">
+                                        <div class="login-content">
+                                            <div class="modal-header justify-content-center">
+                                                <h4 class="title">Login to Bitips</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/icon/message-icon.png" alt="image">
+                                                                    <input type="text" placeholder="Enter Your Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/icon/lock.png" alt="image">
+                                                                    <input type="password" placeholder="Password">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="forget d-flex align-items-center justify-content-between">
+                                                                    <label class="checkbox-wrapper">Remember me
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                    <a href="javascript:void(0)">Forgot Password?</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btn-area">
+                                                                <a href="javascript:void(0)" class="cmn-btn">LOGIN</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <span class="or">or</span>
+                                                    <div class="reg-with">
+                                                        <a href="javascript:void(0)" class="cmn-btn">login with facebook</a>
+                                                        <a href="javascript:void(0)" class="cmn-btn second">Sign in with Google</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="regArea" role="tabpanel" aria-labelledby="regArea-tab">
+                                        <div class="reg-content regMod">
+                                            <div class="modal-header justify-content-center">
+                                                <div class="top-area text-center">
+                                                    <h4 class="title">Welcome To Bitips</h4>
+                                                    <p>Hundreds of Verified Tipsters. Winning Tips. Unbeatable Value.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-area">
+                                                    <form action="#">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="single-input">
+                                                                    <img src="assets/images/icon/message-icon.png" alt="image">
+                                                                    <input type="text" placeholder="Enter Your Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="btn-area">
+                                                                <a href="javascript:void(0)" class="cmn-btn">Continue</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <div class="joining text-center">
+                                                        <p>By joining I agree to receive emails from Bitips</p>
+                                                    </div>
+                                                    <span class="or">or</span>
+                                                    <div class="reg-with">
+                                                        <a href="javascript:void(0)" class="cmn-btn">login with facebook</a>
+                                                        <a href="javascript:void(0)" class="cmn-btn second">Sign in with Google</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="nav log-reg-btn justify-content-center">
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link active" id="loginArea-tab" data-bs-toggle="tab" data-bs-target="#loginArea" type="button"
+                                            role="tab" aria-controls="loginArea" aria-selected="true">
+                                            Already a Member? <span>Login</span>
+                                        </button>
+                                    </li>
+                                    <li class="bottom-area" role="presentation">
+                                        <button class="nav-link" id="regArea-tab" data-bs-toggle="tab" data-bs-target="#regArea" type="button"
+                                            role="tab" aria-controls="regArea" aria-selected="false">
+                                            
+                                            Not a member yet? <span>Register now</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Registration end -->
+
+    <!-- banner-section start -->
+    <section class="banner-section support-help">
+        <div class="overlay">
+            <div class="shape-area">
+                <img src="assets/images/banner-obj-1.png" class="obj-1" alt="image">
+            </div>
+            <div class="banner-content d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="main-content">
+                                <h1>Support Help Center</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- Support Help Center In start -->
+    <section class="support-help-center">
+        <div class="overlay pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="section-text text-center">Support Help Center</h1>
+                        <form action="#">
+                            <div class="form-content">
+                                <input type="text" placeholder="How can we help?">
+                                <button class="cmn-btn">
+                                    <img src="assets/images/icon/search-second.png" alt="icon">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row pt-120 cus-mar">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item">
+                            <div class="img-area">
+                                <img src="assets/images/icon/categories-icon-1.png" alt="icon">
+                            </div>
+                            <a href="buyer-faq.html"><h5>I'm Buying Tips</h5></a>
+                            <p>If you want to buy tips/subscribe to a tipster this is the part of the help center
+                                designed especially for you.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item">
+                            <div class="img-area">
+                                <img src="assets/images/icon/categories-icon-2.png" alt="icon">
+                            </div>
+                            <a href="tipster-faq.html"><h5>I'm a Tipster</h5></a>
+                            <p>If you are a tipster or want to become one. This is where you will be able to find all
+                                the answers to your questions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item">
+                            <div class="img-area">
+                                <img src="assets/images/icon/categories-icon-3.png" alt="icon">
+                            </div>
+                            <a href="contact.html"><h5>Contact Us</h5></a>
+                            <p>We're here to help you. Get in touch and our support team will get back to you in short
+                                time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Support Help Center In end -->
+
+    <!-- FAQs In start -->
+    <section class="faqs-section support">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">We've put together a list of useful information</h5>
+                            <h2 class="title">Frequently asked questions</h2>
+                            <p>We keep updating our FAQ section. If you have any additional question, please <a
+                                    href="contact.html">contact support.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav justify-content-center" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="cmn-btn active" id="nav-buyers-tab" data-bs-toggle="tab" data-bs-target="#nav-buyers"
+                            type="button" role="tab" aria-controls="nav-buyers" aria-selected="true">Buyers</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="cmn-btn" id="nav-tipsters-tab" data-bs-toggle="tab" data-bs-target="#nav-tipsters"
+                            type="button" role="tab" aria-controls="nav-tipsters" aria-selected="false">Tipsters</button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="nav-buyers" role=tablist
+                        aria-labelledby="nav-buyers-tab">
+                        <div class="row faq-bg d-flex justify-content-center">
+                            <div class="col-xl-10">
+                                <div class="faq-box">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    How many tipsters does Bitips have?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    How many predictions will I receive?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingFour">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                    aria-expanded="false" aria-controls="collapseFour">
+                                                    In what sections are you most successful?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFour" class="accordion-collapse collapse"
+                                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingFive">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                    aria-expanded="false" aria-controls="collapseFive">
+                                                    Are your strategies well-researched?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFive" class="accordion-collapse collapse"
+                                                aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingsix">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                                                    aria-expanded="false" aria-controls="collapsesix">
+                                                    Can add more tipsters once I registered?
+                                                </button>
+                                            </h5>
+                                            <div id="collapsesix" class="accordion-collapse collapse"
+                                                aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingsaven">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapsesaven"
+                                                    aria-expanded="false" aria-controls="collapsesaven">
+                                                    How to adjust my tipster balance?
+                                                </button>
+                                            </h5>
+                                            <div id="collapsesaven" class="accordion-collapse collapse"
+                                                aria-labelledby="headingsaven" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingeight">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseeight"
+                                                    aria-expanded="false" aria-controls="collapseeight">
+                                                    I want to change my name and email, how do I do it?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseeight" class="accordion-collapse collapse"
+                                                aria-labelledby="headingeight" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-tipsters" aria-labelledby="nav-tipsters-tab">
+                        <div class="row faq-bg d-flex justify-content-center">
+                            <div class="col-xl-10">
+                                <div class="faq-box">
+                                    <div class="accordion" id="accordionSecond">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingNine">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                                    aria-expanded="false" aria-controls="collapseNine">
+                                                    How many tipsters does Bitips have?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseNine" class="accordion-collapse collapse"
+                                                aria-labelledby="headingNine" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingTen">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                                    aria-expanded="false" aria-controls="collapseTen">
+                                                    How many predictions will I receive?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTen" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTen" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingEleven">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                                    aria-expanded="false" aria-controls="collapseEleven">
+                                                    In what sections are you most successful?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseEleven" class="accordion-collapse collapse"
+                                                aria-labelledby="headingEleven" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingTwelve">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                                    aria-expanded="false" aria-controls="collapseTwelve">
+                                                    Are your strategies well-researched?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTwelve" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwelve" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingThirteen">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
+                                                    aria-expanded="false" aria-controls="collapseThirteen">
+                                                    Can add more tipsters once I registered?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThirteen" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingFourteen">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseFourteen"
+                                                    aria-expanded="false" aria-controls="collapseFourteen">
+                                                    How to adjust my tipster balance?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFourteen" class="accordion-collapse collapse"
+                                                aria-labelledby="headingFourteen" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingFifteen">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
+                                                    aria-expanded="false" aria-controls="collapseFifteen">
+                                                    I want to change my name and email, how do I do it?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFifteen" class="accordion-collapse collapse"
+                                                aria-labelledby="headingFifteen" data-bs-parent="#accordionSecond">
+                                                <div class="accordion-body">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever
+                                                        since the 1500s, when an unknown printer took a galley of type
+                                                        and
+                                                        scrambled it to make a type specimen book.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs In end -->
+
+    <!-- Contact Us In start -->
+    <section class="contact-us">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="main-content text-center">
+                            <img src="assets/images/experts-sec.png" alt="image">
+                            <h2 class="title mt-60">Can’t find your answer?</h2>
+                            <p>We’re here to help. Get in touch and we’ll get back to you as soon as we can.</p>
+                            <a href="contact.html" class="cmn-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us In end -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-section">
+        <div class="container pt-120">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="newsletter">
+                        <div class="section-header text-center">
+                            <h3 class="title">Don't miss out on Fantastic News</h3>
+                            <p>Subscribe to our newsletter and be the first to receive news</p>
+                        </div>
+                        <form action="#">
+                            <div class="form-group d-flex align-items-center">
+                                <input type="text" placeholder="Enter Your Email">
+                                <button><img src="assets/images/icon/send-icon.png" alt="icon"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area pt-120">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="menu-item">
+                            <a href="index.html" class="logo">
+                                <img src="assets/images/logo.png" alt="logo">
+                            </a>
+                            <ul class="footer-link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="support-help.html">Support</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="terms-conditions.html">Terms of Services</a></li>
+                                <li><a href="privacy-policy.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="copyright">
+                            <div class="copy-area">
+                                <p> Copyright © <a href="index.html">Pewa BET</a> | Designed by
+                                    <a href="https://vexxmedia tecnologies/user/vexxmedia tecnologies" class="auth">vexxmedia tecnologies</a>
+                                </p>
+                            </div>
+                            <div class="social-link d-flex align-items-center">
+                                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/plugin/slick.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/counter.js"></script>
+    <script src="assets/js/plugin/apexcharts.min.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+</html>
